@@ -70,6 +70,12 @@ data "aws_iam_policy_document" "atlantis-s3-read" {
       "arn:aws:s3:::test19/*",
       "arn:aws:s3:::test20",
       "arn:aws:s3:::test20/*",
+      "arn:aws:s3:::test21",
+      "arn:aws:s3:::test21/*",
+      "arn:aws:s3:::test22",
+      "arn:aws:s3:::test22/*", 
     ]
   }
 }
+
+resource "null_resource" "example" {}
