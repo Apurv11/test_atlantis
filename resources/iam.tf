@@ -73,3 +73,6 @@ data "aws_iam_policy_document" "atlantis-s3-read" {
     ]
   }
 }
+
+
+resource "null_resource" "test_resource" {}
