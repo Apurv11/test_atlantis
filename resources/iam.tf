@@ -44,21 +44,19 @@ data "aws_iam_policy_document" "atlantis-s3-read" {
     resources = [
       "arn:aws:s3:::test1",
       "arn:aws:s3:::test-test-paper-mandates",
-      "arn:aws:s3:::test-test-merchant-assets",
       "arn:aws:s3:::test-test-api-invoices",
       "arn:aws:s3:::rzp-api-reconciliation",
       "arn:aws:s3:::rzp-1642-test-nps/*",
       "arn:aws:s3:::rzp-1642-test-nps",
       "arn:aws:s3:::test-test-sftp",
       "arn:aws:s3:::test-test-settlement-service",
+      "arn:aws:s3:::test-test-micro-service",
+      "arn:aws:s3:::test-test-pizza-service",
       "arn:aws:s3:::test-test-growth-service/*",
       "arn:aws:s3:::test-test-growth-service",
       "arn:aws:s3:::test-test-facebook",
-      "arn:aws:s3:::test-test-capital-cards-statements",
-      "arn:aws:s3:::test-us-h2h",
-      "arn:aws:s3:::test-ufh-reports",
-      "arn:aws:s3:::test-activation",
       "arn:aws:s3:::checkout-test",
+      "arn:aws:s3:::donut-service"
     ]
   }
 }
